@@ -47,11 +47,6 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
-def example_function():
-  string = "hi my purpose in life is to help Anton complete this challenge because he's tired."
-  print(string)
-  return string
-
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
